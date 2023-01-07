@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const string = "The revolution will not be televised.";
+        console.log(string);
+
+        // const badString1 = This is a test;
+
+        const name = "Christ";
+        const greeting = `Hello, ${name}`;
+        console.log(greeting);
+
+        let one = "Hello, ";
+        let two = "how are you?"
+        let joined = `${one}${two}`;
+        console.log(joined)
+
+        const button = document.querySelector("button");
+
+        function greet() {
+            const name = prompt("What is your name?");
+            alert(`Hello ${name}, nice to see you!`);
+        }
+
+        button.addEventListener("click", greet);
+
+        const myString = '123';
+
+    </script>
+
+    <button>Press me</button>
+
+</body>
+
+</html>
