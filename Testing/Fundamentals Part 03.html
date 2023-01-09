@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // function task(message) {
+        //     // emulate time consuming task
+        //     let n = 1000000000;
+        //     while (n > 0) {
+        //         n--;
+        //     }
+        //     console.log(message);
+        // }
+
+        // console.log('Start script...');
+        // task('Call an API');
+        // console.log('Done!');
+
+
+        // function firstFunction() {
+        //     console.log("HELLO from firstFunction");
+        // }
+
+        // function secondFunction() {
+        //     firstFunction();
+        //     console.log("The END from secondFunction");
+        // }
+
+        // secondFunction();
+
+        let add7 = x => x + 7;
+        console.log(add7(7))
+
+        let multiply = (a, b) => a * b;
+        console.log(multiply(5, 3));
+
+        let capitalize = word => word.charAt(0).toUpperCase() + word.slice(1);
+        console.log(capitalize('ernesto'))
+
+        let lastLetter = word => word.charAt(word.length - 1);
+        console.log(lastLetter('Garcia'));
+
+        //Option two
+        let lastLetter2 = word => word.slice(-1);
+        console.log(lastLetter2('abcd'));
+
+
+    </script>
+</body>
+
+</html>
